@@ -9,10 +9,21 @@
             display:flex;
             gap:20px;
         }
+        .container-2{
+            display:flex;
+            flex-wrap: wrap;
+            gap:10px;
+        }
         .box{
             background-color: rgb(126, 126, 239);
             padding:20px;
             border-radius:10px;
+        }
+        .item{
+            width:200px;
+            height:100px;
+            background-color: rgb(109, 186, 160);
+            border: 2px solid rgb(184, 55, 32);
         }
 
         @media screen and (max-width:576px){
@@ -20,8 +31,6 @@
                 flex-direction: column;
             }
         }
-
-
     </style>
 </head>
 <body>
@@ -40,8 +49,22 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim qui, reiciendis harum ullam culpa illum perspiciatis accusamus quaerat dolores quidem illo id similique! Incidunt consequuntur quas soluta facere laboriosam ea!</p>
         </div>
     </div>
-
     
+    <div class="container-2">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+        <div class="item">Item-6</div>
+        <div class="item">Item-7</div>
+        <div class="item">Item-8</div>
+        <div class="item">Item-9</div>
+        <div class="item">Item-10</div>
+        <div class="item">Item-11</div>
+        <div class="item">Item-12</div>
+    </div>
+
 
 </body>
 </html>
