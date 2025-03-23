@@ -1,0 +1,5 @@
+.header, .nav, .main, .sideber, .advertise, .footer{
+
+    background-color: rgb(243, 212, 174);
+    border: 2px solid rgb(241, 108, 85);
+}
