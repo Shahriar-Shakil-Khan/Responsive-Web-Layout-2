@@ -3,3 +3,50 @@
     background-color: rgb(243, 212, 174);
     border: 2px solid rgb(241, 108, 85);
 }
+
+.header{
+    grid-area:header;
+    padding-left: 15px;
+}
+
+.nav{
+    grid-area:nav;
+    padding-right:70px;
+}
+
+.main{
+    grid-area:main;
+    padding:10px;
+}
+
+.sideber{
+    grid-area:sideber;
+    padding:50px;
+}
+
+.advertise{
+    grid-area:advertise;
+    padding:50px;
+    margin-top:20px;
+}
+
+.footer{
+    grid-area:footer;
+    padding-left: 15px;
+}
+
+.container{
+    display:grid;
+    gap:20px;
+    grid-template-areas:
+    "header header header  header "
+    "nav    main   main    sideber"
+    "nav    main   main    advertise"
+    "footer footer footer  footer" 
+    ;
+    
+}
+
+.nav ul li{
+    list-style:none;
+}
